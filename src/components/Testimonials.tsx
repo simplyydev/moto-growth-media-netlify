@@ -40,32 +40,32 @@ const Testimonials = () => {
   };
 
   return (
-    <section id="testimonials" className="py-24 bg-white">
+    <section id="testimonials" className="py-24 bg-background">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <span className="inline-flex items-center rounded-full px-4 py-1 text-sm font-medium bg-emerald-50 text-emerald-700 ring-1 ring-inset ring-emerald-600/20 mb-6">
+          <span className="inline-flex items-center rounded-full px-4 py-1 text-sm font-medium bg-emerald-50 dark:bg-emerald-900/30 text-emerald-700 dark:text-emerald-300 ring-1 ring-inset ring-emerald-600/20 mb-6">
             Testimonials
           </span>
-          <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
+          <h2 className="text-3xl sm:text-4xl font-bold text-foreground mb-4">
             What Our Clients Say
           </h2>
-          <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
             Hear from businesses we've helped grow and succeed
           </p>
         </div>
 
         <div className="relative max-w-4xl mx-auto">
-          <Card className="bg-white p-8 md:p-12 animate-fade-up">
-            <Quote className="w-12 h-12 text-emerald-600 mb-6" />
-            <p className="text-xl md:text-2xl text-gray-700 mb-8">
+          <Card className="bg-card p-8 md:p-12 animate-fade-up">
+            <Quote className="w-12 h-12 text-emerald-600 dark:text-emerald-400 mb-6" />
+            <p className="text-xl md:text-2xl text-foreground mb-8">
               {testimonials[currentIndex].quote}
             </p>
             <div className="flex items-center justify-between">
               <div>
-                <p className="font-semibold text-gray-900">
+                <p className="font-semibold text-foreground">
                   {testimonials[currentIndex].author}
                 </p>
-                <p className="text-gray-600">
+                <p className="text-muted-foreground">
                   {testimonials[currentIndex].position}
                 </p>
               </div>
@@ -74,7 +74,7 @@ const Testimonials = () => {
                   variant="outline"
                   size="icon"
                   onClick={prev}
-                  className="hover:bg-emerald-50"
+                  className="hover:bg-emerald-50 dark:hover:bg-emerald-900/30"
                 >
                   <ChevronLeft className="h-4 w-4" />
                 </Button>
@@ -82,7 +82,7 @@ const Testimonials = () => {
                   variant="outline"
                   size="icon"
                   onClick={next}
-                  className="hover:bg-emerald-50"
+                  className="hover:bg-emerald-50 dark:hover:bg-emerald-900/30"
                 >
                   <ChevronRight className="h-4 w-4" />
                 </Button>
