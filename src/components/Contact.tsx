@@ -110,7 +110,7 @@ const Contact = () => {
                     <h3 className="text-lg font-semibold text-foreground">
                       Email Us
                     </h3>
-                    <p className="text-muted-foreground">info@motogrowth.com</p>
+                    <p className="text-muted-foreground">dev@aboutdevendra.in</p>
                   </div>
                 </div>
               </CardContent>
@@ -126,7 +126,7 @@ const Contact = () => {
                     <h3 className="text-lg font-semibold text-foreground">
                       Call Us
                     </h3>
-                    <p className="text-muted-foreground">+1 (555) 123-4567</p>
+                    <p className="text-muted-foreground">+91 9336895443</p>
                   </div>
                 </div>
               </CardContent>
@@ -145,7 +145,7 @@ const Contact = () => {
                     <Linkedin className="w-6 h-6 text-emerald-600 dark:text-emerald-400" />
                   </a>
                   <a
-                    href="#"
+                    href="www.linkedin.com/in/simplyydev"
                     className="w-12 h-12 bg-emerald-50 dark:bg-emerald-900/20 rounded-lg flex items-center justify-center hover:bg-emerald-100 dark:hover:bg-emerald-900/40 transition-colors"
                   >
                     <Facebook className="w-6 h-6 text-emerald-600 dark:text-emerald-400" />
