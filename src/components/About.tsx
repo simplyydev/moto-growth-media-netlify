@@ -48,7 +48,7 @@ const About = () => {
                 <p className="text-foreground">Years of Experience</p>
               </Card>
               <Card className="p-6 bg-card">
-                <h4 className="text-2xl font-bold text-emerald-600 dark:text-emerald-400 mb-2">150+</h4>
+                <h4 className="text-2xl font-bold text-emerald-600 dark:text-emerald-400 mb-2">100+</h4>
                 <p className="text-foreground">Satisfied Clients</p>
               </Card>
             </div>
