@@ -73,7 +73,7 @@
   
   body {
     @apply bg-background text-foreground;
-    transition: all 0.3s ease-in-out;
+    transition: background-color 0.3s ease-in-out;
   }
   
   html {
@@ -83,17 +83,17 @@
 
 .animate-fade-up {
   opacity: 0;
-  animation: fade-up 0.8s ease-in-out forwards;
+  animation: fade-up 0.3s ease-in-out forwards;
 }
 
 .animate-fade-down {
   opacity: 0;
-  animation: fade-down 0.8s ease-in-out forwards;
+  animation: fade-down 0.3s ease-in-out forwards;
 }
 
 .animate-fade-in {
   opacity: 0;
-  animation: fade-in 0.8s ease-in-out forwards;
+  animation: fade-in 0.3s ease-in-out forwards;
 }
 
 /* Dark mode transition */
@@ -102,7 +102,12 @@
 }
 
 * {
-  transition: all 0.3s ease-in-out !important;
+  transition: background-color 0.3s ease-in-out;
+}
+
+/* Text transitions */
+h1, h2, h3, h4, h5, h6, p, span, a {
+  transition: color 0.2s ease-in-out !important;
 }
 
 /* Smooth hover transitions */
