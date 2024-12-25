@@ -126,7 +126,7 @@ const Contact = () => {
                     <h3 className="text-lg font-semibold text-foreground">
                       Call Us
                     </h3>
-                    <p className="text-muted-foreground">+91 9336895443</p>
+                    <p className="text-muted-foreground">Soon</p>
                   </div>
                 </div>
               </CardContent>
