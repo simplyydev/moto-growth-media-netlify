@@ -58,7 +58,7 @@ const Footer = () => {
             <ul className="space-y-2">
               <li>
                 <Link
-                  to="/privacy"
+                  to="/PrivacyPolicy"
                   className="text-muted-foreground hover:text-emerald-400 transition-colors"
                 >
                   Privacy Policy
