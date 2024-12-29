@@ -126,7 +126,7 @@ const Contact = () => {
                     <h3 className="text-lg font-semibold text-foreground">
                       Call Us
                     </h3>
-                    <p className="text-muted-foreground">Soon</p>
+                    <p className="text-muted-foreground">N/A</p>
                   </div>
                 </div>
               </CardContent>
@@ -139,7 +139,7 @@ const Contact = () => {
                 </h3>
                 <div className="flex space-x-4">
                   <a
-                    href="www.linkedin.com/in/simplyydev" target="_blank"
+                    href="https://www.linkedin.com/in/simplyydev/" target="_blank" rel="noopener no referrer"
                     className="w-12 h-12 bg-emerald-50 dark:bg-emerald-900/20 rounded-lg flex items-center justify-center hover:bg-emerald-100 dark:hover:bg-emerald-900/40 transition-colors"
                   >
                     <Linkedin className="w-6 h-6 text-emerald-600 dark:text-emerald-400" />
